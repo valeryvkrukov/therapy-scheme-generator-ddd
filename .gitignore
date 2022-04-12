@@ -1,3 +1,7 @@
+###> IDE settings ###
+/.idea/
+/nbproject/
+###< IDE settings ###
 
 ###> symfony/framework-bundle ###
 /.env.local
@@ -15,3 +19,4 @@
 npm-debug.log
 yarn-error.log
 ###< symfony/webpack-encore-bundle ###
+/nbproject/private/
