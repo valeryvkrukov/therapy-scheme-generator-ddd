@@ -10,11 +10,17 @@ doctrine:
         naming_strategy: doctrine.orm.naming_strategy.underscore_number_aware
         auto_mapping: true
         mappings:
-            Appplication:
+            #Appplication:
+            #    is_bundle: false
+            #    dir: '%kernel.project_dir%/src/Application/Entity'
+            #    prefix: 'Appplication\Entity'
+            #    alias: Appplication
+            Label:
+                type: xml
                 is_bundle: false
-                dir: '%kernel.project_dir%/src/Application/Entity'
-                prefix: 'Appplication\Entity'
-                alias: Appplication
+                dir: '%kernel.project_dir%/src/Application/TSG/Scheme/Label/Infrastructure/DoctrineMapping'
+                prefix: 'Application\TSG\Scheme\Label\Domain\Entity'
+                alias: Label
 
 when@test:
     doctrine:
