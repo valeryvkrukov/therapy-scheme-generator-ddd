@@ -19,4 +19,8 @@
 npm-debug.log
 yarn-error.log
 ###< symfony/webpack-encore-bundle ###
-/nbproject/private/
+
+###> Docker data ###
+/.docker/rabbitmq/
+/.docker/mysql/
+###< Docker data ###
